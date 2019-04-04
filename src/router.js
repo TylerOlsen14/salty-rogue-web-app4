@@ -5,6 +5,7 @@ import About from './views/About.vue'
 import Clients from './components/Clients.vue'
 import PropertyProspects from './components/PropertyProspects.vue'
 import PhoneRecords from './components/PhoneRecords.vue'
+import Navbar from './components/Navbar.vue'
 
 Vue.use(Router)
 
@@ -33,7 +34,7 @@ export default new Router({
       component: PropertyProspects
     },
     {
-      path: './views/About.vue',
+      path: './views/About',
       name: 'about',
       component: About
     }
